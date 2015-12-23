@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "CRMDEV",
+    "packageName": "com.logate.crmdev",
+    "packageFolder": "com/logate/crmdev",
+    "authenticationType": "oauth2",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "75f5fc1cb55d7c38ec3cd176156b48f81a0b72ef",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
